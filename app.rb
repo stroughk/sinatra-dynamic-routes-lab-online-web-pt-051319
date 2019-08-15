@@ -5,7 +5,7 @@ get '/reversename/:name' do
 params[:name].reverse
 end
 
-get '/square/:number' do 
+get '/square/:number' do
 params[:number]*[:number]
 end
 
